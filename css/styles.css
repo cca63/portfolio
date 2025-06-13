@@ -121,3 +121,11 @@ footer {
   }
 }
 
+.profile-img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
