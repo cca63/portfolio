@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Associations</title>
@@ -20,9 +21,9 @@
   </nav>
 
   <main class="content">
-    <h1>Professional Associations</h1>
+    <h1 data-aos="flip-left" data-aos-duration="800">Professional Associations</h1>
     <p>Below are some organizations and communities I'm either a part of or follow for professional growth:</p>
-    <ul>
+    <ul data-aos="fade-up" data-aos-delay="200">
       <li><strong>Interaction Design Association (IxDA)</strong> – Focused on user experience and interface design.</li>
       <li><strong>Frontend Mentor</strong> – A place to practice front-end skills with real-world challenges.</li>
       <li><strong>Women Who Code</strong> – A great support network for coders and learning platform for developers.</li>
@@ -30,5 +31,9 @@
     </ul>
 </main>
 <script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

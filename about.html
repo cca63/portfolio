@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Me</title>
@@ -27,9 +28,17 @@
 
   <main>
     <section class="about">
-      <h2>About Me</h2>
-      <p>Hi! I'm a UI Designer and aspiring Front-End Developer focused on building clean, user-friendly interfaces. I'm passionate about product and project development and love turning creative ideas into digital experiences.</p>
-      <p>My interests include responsive design, accessibility, and creating intuitive user flows. I plan to work in teams where I can help bridge design and development to build amazing web products.</p>
+        <h2 data-aos="fade-right" data-aos-duration="800">About Me</h2>
+
+        <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">
+          I'm passionate about UI design, front-end development, and building user-centered solutions.
+        </p>
+        
+        <ul data-aos="fade-up" data-aos-delay="300">
+          <li>📍 Based in: Philadelphia</li>
+          <li>💼 Focus: UI Design / Front-End Development</li>
+          <li>🎓 Education: Drexel University, College of Computing and Informatics</li>
+        </ul>
     </section>
   </main>
 
@@ -37,5 +46,9 @@
     <p>&copy; 2025 Carter Anderson</p>
   </footer>
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
