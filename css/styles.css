@@ -122,7 +122,8 @@ footer {
 }
 
 .profile-img {
-  width: 200px;
+  max-width: 200px;
+  width: 100%;
   height: auto;
   border-radius: 12px;
   display: block;
